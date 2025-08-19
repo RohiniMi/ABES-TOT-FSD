@@ -22,12 +22,12 @@
     background: tomato;
 }
 
-.box:nth-child(1) {
+/* .box:nth-child(1) {
     grid-column-start: 2;
     grid-column-end:3;
     grid-row-start: 1;
     grid-row-end: 2;
-}
+} */
 
 .box:nth-child(2),
 .box:nth-child(6) {
@@ -43,4 +43,14 @@
 .box:nth-child(8) {
     background: gold;
     color: black;
+}
+.box:nth-child(1),.box:nth-child(7){
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+.part{
+    height:23px;
+    width: 18px;
+    border: 1px solid black;
 }
