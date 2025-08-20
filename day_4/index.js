@@ -29,4 +29,10 @@ console.log(b);
     let b = 20;
     console.log(b);
 }
+
 console.log(b);
+
+//equality
+console.log(12=="12");
+console.log(12==="12");
+
