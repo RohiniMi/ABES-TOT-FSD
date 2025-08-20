@@ -80,3 +80,9 @@ console.log(sum(10,20));
 
 const add = (a,b)=>a+b;
 console.log(add(a,b));
+
+//iife
+(()=>{
+console.log("invoked");
+
+})()
