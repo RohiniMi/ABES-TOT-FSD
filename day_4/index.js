@@ -36,3 +36,47 @@ console.log(b);
 console.log(12=="12");
 console.log(12==="12");
 
+// function add(){
+//     return 12+23;
+// }
+// let sum = add();
+// console.log(sum);
+
+// function add(a,b){
+//     return a+b;
+// }
+// let val = add(12,23);
+// console.log(val);
+
+//hoisting
+// let val = add(12,23);
+// console.log(val);
+// function add(a,b){
+//     return a+b;
+// }
+
+//function as variable
+
+// const data = function(a,b){
+//     return a-b;
+// }
+// let sub = data(20,10)
+// console.log(sub);
+
+//function as variable with hoisting
+
+var data = function(a,b){
+    return a-b;
+}
+let sub = data(20,10)
+console.log(sub);
+
+//arrow function
+
+const sum = (a,b)=> {
+    return a+b;
+}
+console.log(sum(10,20));
+
+const add = (a,b)=>a+b;
+console.log(add(a,b));
