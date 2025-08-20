@@ -6,6 +6,8 @@
 
 const a = 20;
 console.log(a);
-a = 45;
-console.log(a);
+// a = 45; not allowed
+// console.log(a);
 
+let b = 20;
+console.log(b);
