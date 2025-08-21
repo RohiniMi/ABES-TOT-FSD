@@ -20,3 +20,5 @@ console.log(employee);
 console.log(employee['name']);
 console.log(employee['lang']);
 console.log(employee['lang'][0].lang1);
+employee['name'] = "Sania Mittal";
+console.log(employee['name']);
