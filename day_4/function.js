@@ -16,7 +16,7 @@ function selectLanguage(lang) {
     }
     else {
         data = "Selected lang dos not match...";
-        console.log("Selected lang dos not match...");
+        console.log("Selected lang does not match...");
         
 
     }
